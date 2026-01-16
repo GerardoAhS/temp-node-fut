@@ -8,8 +8,3 @@ const server = http.createServer((req, res) => {
 server.listen(5000, () => {
   console.log('Server listening on port : 5000....')
 })
-
-// RECORDATORIO:
-//agregar el archivo 13 y 14
-// que significa eso: const {createReadStream} = require('fs')
-//Nos quedamos en 3:30

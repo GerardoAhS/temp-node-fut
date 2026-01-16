@@ -27,3 +27,8 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
   })
 })
 console.log('starting next task')
+
+
+const start = async () => {
+    const first = await readFile('./content/first.txt', 'utf8')
+}
